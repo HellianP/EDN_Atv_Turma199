@@ -1,0 +1,105 @@
+1- Área da circunferência
+
+
+A fórmula para calcular a área de uma circunferência é: área = π ×raio2. Considerando para
+este problema que π = 3.14159265: 
+
+• Efetue o cálculo da área, elevando o valor de raio ao quadrado e multiplicando por π. 
+
+Entrada: A entrada contém um valor de ponto flutuante (dupla precisão), no caso, a variável
+raio.
+Saída: Apresente a mensagem "A=" seguido pelo valor da variável area, conforme exemplo
+abaixo, com 4 casas após o ponto decimal.
+
+
+
+
+2- Classificador de Idade
+
+
+Crie um programa que solicite a idade do usuário e classifique-o
+em uma das seguintes categorias:
+
+Criança (0-12 anos),
+
+Adolescente (13-17 anos),
+
+Adulto (18-59 anos)
+
+Idoso (60 anos ou mais).
+
+
+
+
+3- Calculadora de IMC
+
+
+Desenvolva um programa que calcule o Índice de Massa Corporal (IMC) de uma pessoa.
+O programa deve solicitar o peso (em kg) e a altura (em metros) do usuário,
+calcular o IMC e fornecer a classificação de acordo com a tabela padrão de IMC.
+
+
+< 18.5: classificacao = "Abaixo do peso" 
+
+< 25: classificacao = "Peso normal"
+
+ < 30: classificacao = "Sobrepeso"
+
+ Para os demais cenários: classificacao = "Obeso"
+
+
+
+
+4- Conversor de Temperatura 
+
+Crie um programa que converta temperaturas entre Celsius, Fahrenheit e Kelvin. 
+
+O usuário deve informar a temperatura, a unidade de origem e a unidade para qual deseja converter.
+
+
+
+
+5- Verificador de Ano Bissexto
+
+
+Faça um programa que determine se um ano inserido pelo usuário é bissexto ou não.
+
+Um ano é bissexto se for divisível por 4, exceto anos centenários (divisíveis por 100) que não são divisíveis por 400.
+
+
+
+
+6- Calculadora de Comissão
+
+
+Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas
+efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão
+sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais. 
+
+Entrada: O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de
+dupla precisão (double) com duas casas decimais, representando o salário fixo do vendedor e
+montante total das vendas efetuadas por este vendedor, respectivamente. 
+
+Saída: Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
+
+
+
+
+7- Calculadora da Média
+
+
+Faça um programa que leia quatro números (N1, N2, N3, N4), cada um deles com uma casa decimal, correspondente às quatro notas de um aluno. Calcule a média com pesos 2, 3, 4 e 1, respectivamente, para cada uma destas notas e mostre esta média acompanhada pela mensagem "Media: ". 
+
+Se esta média for maior ou igual a 7.0, imprima a mensagem "Aluno aprovado.". Se a média calculada for inferior a 5.0, imprima a mensagem "Aluno reprovado.". Se a média calculada for um valor entre 5.0 e 6.9, inclusive estas, o programa deve imprimir a mensagem "Aluno em exame.".
+
+ No caso do aluno estar em exame, leia um valor correspondente à nota do exame obtida pelo aluno. Imprima então a mensagem "Nota do exame: " acompanhada pela nota digitada. Recalcule a média (some a pontuação do exame com a média anteriormente calculada e divida por 2). e imprima a mensagem "Aluno aprovado." (caso a média final seja 5.0 ou mais) ou "Aluno reprovado.", (caso a média tenha ficado 4.9 ou menos). 
+
+Para estes dois casos
+(aprovado ou reprovado após ter pego exame) apresente na última linha uma mensagem "Media
+final: " seguido da média final para esse aluno.
+
+
+Entrada: A entrada contém quatro números de ponto flutuante correspondentes às notas dos alunos.
+
+
+Saída: Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens devem ser impressas conforme a descrição do problema. Não esqueça de imprimir o enter após o final de cada linha, caso contrário obterá "Presentation Error".
